@@ -1,3 +1,10 @@
+Important Info
+==================
+Many thanks to MoneroOcean for his job.
+Basic system is forked from last single coin config:
+* https://github.com/MoneroOcean
+Coin configs, base.sql and deployments are modified to use from deployment scripts
+
 Pool Design/Theory
 ==================
 The nodejs-pool is built around a small series of core daemons that share access to a single LMDB table for tracking of shares, with MySQL being used to centralize configurations and ensure simple access from local/remote nodes.  The core daemons follow:
@@ -252,15 +259,19 @@ If you'd like to make a one time donation, the addresses are as follows:
 * AEON WmtWzE4zej7FLjctgMPk7Va7hiiESJF5xHfmb5KZaMAhHDSRU51pqTJQiVFZgRMmrga9KvqPg48EZTEVQ9qA47o52MYgiMqaw
 * XMR 4AYuDc4cEqxfxVTUFwVqPd4JdmKLjm9dNhTjuT6Ud5gQa564wp6cxMBWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3zc3jmn
 * ETN etnkLgWfr5uE8MZSZpsabb6HjG8Mig9qaS4wQ6Hu2VVKTiJT9Ucdrzz9CqGF9tycaWbntrSRr1CwVJDqGYPtumL72GhXwtoPvs
-
+MoneroOcean for His great job with pool system
+* AEON Address: WmtU2EMXGYSJVmPpw65AsAGi5WhT85z5n66D8vcT3RcxRBBj4tFiDcd2CVFcQ1bBpjNQD5Z5kbXrLjVidvoKFaFK1JbHsqMRw
+* Required PaymentID: e8a93311d23ecd418820d43d891112ece68f5e971a99dcafb9a6c8229bf3411a
+* Monero Address:
 My pools:
 ================
 * https://supportaeon.com
 * https://supportetn.eu
+* https://graft.supportcryptonight.com
 
 Credits
 =======
-
+[MoneroOcean](https://github.com/moneroocean) - Based pool system with many important modifications
 [Zone117x](https://github.com/zone117x) - Original [node-cryptonote-pool](https://github.com/zone117x/node-cryptonote-pool) from which, the stratum implementation has been borrowed.
 [Mesh00](https://github.com/mesh0000) - Frontend build in Angular JS [XMRPoolUI](https://github.com/mesh0000/poolui)
 [Miziel](https://github.com/miziel) - Frontend mod [XMRPoolUI](https://github.com/miziel/poolui)

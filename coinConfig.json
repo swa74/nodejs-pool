@@ -40,8 +40,8 @@
     "name": "TurtleCoin",
     "mixIn": 2,
     "shortCode": "TRTL"
-},
-"grf": {
+  },
+  "grf": {
    "funcFile": "./lib/coins/grf.js",
    "paymentFile": "./payment_systems/grf.js",
    "sigDigits": 10000000000,
