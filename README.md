@@ -1,9 +1,11 @@
 Important Info
 ==================
 Many thanks to MoneroOcean for his job.
-Basic system is forked from last single coin config:
+
+Basic system is forked from last single coin repository:
 * https://github.com/MoneroOcean
-Coin configs, base.sql and deployments are modified to use from deployment scripts
+
+Coin configs, base.sql and deployments are modified by me to use from deployment scripts
 
 Pool Design/Theory
 ==================
@@ -277,9 +279,8 @@ My pools:
 
 Credits
 =======
-[MoneroOcean](https://github.com/moneroocean) - Based pool system with many important modifications
-[Zone117x](https://github.com/zone117x) - Original [node-cryptonote-pool](https://github.com/zone117x/node-cryptonote-pool) from which, the stratum implementation has been borrowed.
-[Mesh00](https://github.com/mesh0000) - Frontend build in Angular JS [XMRPoolUI](https://github.com/mesh0000/poolui)
-[Miziel](https://github.com/miziel) - Frontend mod [XMRPoolUI](https://github.com/miziel/poolui)
-[Wolf0](https://github.com/wolf9466/)/[OhGodAGirl](https://github.com/ohgodagirl) - Rebuild of node-multi-hashing with AES-NI [node-multi-hashing](https://github.com/Snipa22/node-multi-hashing-aesni)
-[Snipa22] https://github.com/Snipa22/nodejs-pool This awsome pool software
+* [MoneroOcean](https://github.com/moneroocean) - Based pool system with many important modifications
+* [Zone117x](https://github.com/zone117x) - Original [node-cryptonote-pool](https://github.com/zone117x/node-cryptonote-pool) from which, the stratum implementation has been borrowed.
+* [Miziel](https://github.com/miziel) - Frontend mod [XMRPoolUI](https://github.com/miziel/poolui)
+* [Wolf0](https://github.com/wolf9466/)/[OhGodAGirl](https://github.com/ohgodagirl) - Rebuild of node-multi-hashing with AES-NI * * [node-multi-hashing](https://github.com/Snipa22/node-multi-hashing-aesni)
+* [Snipa22] https://github.com/Snipa22/nodejs-pool This awsome pool software
