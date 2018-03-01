@@ -246,7 +246,7 @@ Assistance is not available for frontend customization at this time.
 
 For assitance, please contact ArqTras at support@supportaeon.com
 
-Developer Donations
+Donations
 ===================
 If you'd like to make a one time donation, the addresses are as follows:
 * AEON WmtWzE4zej7FLjctgMPk7Va7hiiESJF5xHfmb5KZaMAhHDSRU51pqTJQiVFZgRMmrga9KvqPg48EZTEVQ9qA47o52MYgiMqaw
