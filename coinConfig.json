@@ -49,4 +49,20 @@
    "mixIn": 5,
    "shortCode": "GRF"
 },
+"stl": {
+      "funcFile": "./lib/coins/stl.js",
+      "paymentFile": "./payment_systems/stl.js",
+      "sigDigits": 10000,
+      "name": "Stellitecoin",
+      "mixIn": 0,
+      "shortCode": "STL"
+  },
+  "sumo": {
+      "funcFile": "./lib/coins/sumo.js",
+      "paymentFile": "./payment_systems/sumo.js",
+      "sigDigits": 10,
+      "name": "Sumocoin",
+      "mixIn": 0,
+      "shortCode": "SUMO"
+},
 }
