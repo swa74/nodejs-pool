@@ -54,7 +54,7 @@
       "paymentFile": "./payment_systems/stl.js",
       "sigDigits": 10000,
       "name": "Stellitecoin",
-      "mixIn": 0,
+      "mixIn": 6,
       "shortCode": "STL"
   },
   "sumo": {
@@ -62,7 +62,7 @@
       "paymentFile": "./payment_systems/sumo.js",
       "sigDigits": 10,
       "name": "Sumocoin",
-      "mixIn": 0,
+      "mixIn": 12,
       "shortCode": "SUMO"
 },
 }
