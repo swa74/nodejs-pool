@@ -191,12 +191,12 @@ INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES 
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'pplnsFee', '0.2', 'float', 'Fee charged for the usage of the PPLNS pool');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'propFee', '0.7', 'float', 'Fee charged for the usage of the proportial pool');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'soloFee', '0.4', 'float', 'Fee charged for usage of the solo mining pool');
-INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'exchangeMin', '25', 'float', 'Minimum XMR balance for payout to exchange/payment ID');
-INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'walletMin', '0.5', 'float', 'Minimum XMR balance for payout to personal wallet');
+INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'exchangeMin', '2', 'float', 'Minimum XMR balance for payout to exchange/payment ID');
+INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'walletMin', '1', 'float', 'Minimum XMR balance for payout to personal wallet');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'devDonation', '0.3', 'float', 'Donation to XMR core development');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'poolDevDonation', '0.3', 'float', 'Donation to pool developer');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'denom', '0.001', 'float', 'Minimum balance that will be paid out to.');
-INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'blocksRequired', '20', 'int', 'Blocks required to validate a payout before it''s performed.');
+INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'blocksRequired', '30', 'int', 'Blocks required to validate a payout before it''s performed.');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('general', 'sigDivisor', '1000000000', 'int', 'Divisor for turning coin into human readable amounts ');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'feesForTXN', '20', 'int', 'Amount of XMR that is left from the fees to pay miner fees.');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('payout', 'maxTxnValue', '25000', 'int', 'Maximum amount of XMR to send in a single transaction');
