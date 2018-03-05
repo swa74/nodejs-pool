@@ -57,6 +57,14 @@
       "mixIn": 6,
       "shortCode": "STL"
   },
+  "itns": {
+    "funcFile": "./lib/coins/itns.js",
+    "paymentFile": "./payment_systems/itns.js",
+    "sigDigits": 100000000,
+    "name": "Intense Coin",
+    "mixIn": 4,
+    "shortCode": "ITNS"
+  },
   "sumo": {
       "funcFile": "./lib/coins/sumo.js",
       "paymentFile": "./payment_systems/sumo.js",
