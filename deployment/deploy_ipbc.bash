@@ -28,6 +28,9 @@ sudo git clone https://github.com/ipbc-dev/ipbc.git
 cd ipbc
 sudo git checkout v0.11.1.0
 #curl https://raw.githubusercontent.com/Snipa22/nodejs-pool/master/deployment/monero_daemon.patch | sudo git apply -v
+sudo mkdir build
+cd build
+sudo cmake ..
 sudo make -j$(nproc)
 #sudo cp ~/nodejs-pool/deployment/ipbc.service /lib/systemd/system/
 sudo useradd -m ipbc -d /home/ipbc
