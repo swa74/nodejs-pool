@@ -28,7 +28,7 @@ sudo git clone https://github.com/valiant1x/intensecoin.git
 cd intensecoin
 sudo git checkout xmr
 sudo make -j$(nproc)
-sudo cp ~/nodejs-pool/deployment/intensecoin.service /lib/systemd/system/
+sudo cp ~/nodejs-pool/deployment/intense.service /lib/systemd/system/
 sudo useradd -m intensedaemon -d /home/intensedaemon
 BLOCKCHAIN_DOWNLOAD_DIR=$(sudo -u intensedaemon mktemp -d)
 sudo -u intensedaemon wget --limit-rate=50m -O $BLOCKCHAIN_DOWNLOAD_DIR/blockchain.raw https://github.com/valiant1x/intensecoin/releases/download/1.4.3/blockchain.raw
