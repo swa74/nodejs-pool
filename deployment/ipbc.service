@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=forking
 GuessMainPID=no
-ExecStart=/usr/local/src/ipbc/build/src/ipbcd --rpc-bind-ip 127.0.0.1 --rpc-bind-port 24182 --detach
+ExecStart=/usr/local/src/ipbc/build/src/ipbcd --rpc-bind-ip 127.0.0.1 --rpc-bind-port 24182
 ExecStop=/usr/local/src/ipbc/build/src/ipbcd  exit
 Restart=always
 User=ipbc
