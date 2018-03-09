@@ -65,6 +65,14 @@
     "mixIn": 4,
     "shortCode": "ITNS"
   },
+  "ipbc": {
+    "funcFile": "./lib/coins/ipbc.js",
+    "paymentFile": "./payment_systems/ipbc.js",
+    "sigDigits": 100000000,
+    "name": "Interplantary Broadcast Coin",
+    "mixIn": 0,
+    "shortCode": "IPBC"
+  },
   "sumo": {
       "funcFile": "./lib/coins/sumo.js",
       "paymentFile": "./payment_systems/sumo.js",
