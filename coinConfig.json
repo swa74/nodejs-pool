@@ -80,5 +80,13 @@
       "name": "Sumocoin",
       "mixIn": 12,
       "shortCode": "SUMO"
+},
+"xao": {
+    "funcFile": "./lib/coins/xao.js",
+    "paymentFile": "./payment_systems/xao.js",
+    "sigDigits": 1000000000000,
+    "name": "Alloy",
+    "mixIn": 1,
+    "shortCode": "XAO"
 }
 }
