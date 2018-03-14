@@ -24,6 +24,15 @@ sudo mv libg* /usr/lib/
 cd ~
 sudo systemctl enable ntp
 cd /usr/local/src
+sudo git clone https://github.com/forknote/forknote.git
+cd forknote
+#sudo git checkout v0.11.1.0
+#curl https://raw.githubusercontent.com/Snipa22/nodejs-pool/master/deployment/monero_daemon.patch | sudo git apply -v
+sudo cmake .
+sudo make -j$(nproc)
+cd src
+sudo git clone https://github.com/forknote/configs.git
+cd /usr/local/src
 sudo git clone https://github.com/ipbc-dev/ipbc.git
 cd ipbc
 sudo git checkout v0.11.1.0
