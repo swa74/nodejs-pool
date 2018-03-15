@@ -168,7 +168,7 @@ CREATE TABLE `xmrtoTxn` (
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'minerTimeout', '900', 'int', 'Length of time before a miner is flagged inactive.');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'banEnabled', 'true', 'bool', 'Enables/disabled banning of "bad" miners.');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'banLength', '-15m', 'string', 'Ban duration except perma-bans');
-INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'targetTime', '30', 'int', 'Time in seconds between share finds');
+INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'targetTime', '180', 'int', 'Time in seconds between share finds');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'trustThreshold', '30', 'int', 'Number of shares before miner trust can kick in.');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'banPercent', '25', 'int', 'Percentage of shares that need to be invalid to be banned.');
 INSERT INTO pool.config (module, item, item_value, item_type, Item_desc) VALUES ('pool', 'banThreshold', '30', 'int', 'Number of shares before bans can begin');
